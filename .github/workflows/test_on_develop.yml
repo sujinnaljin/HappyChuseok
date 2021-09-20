@@ -13,9 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - uses: sersoft-gmbh/xcodebuild-action@v1
-      with:
-        project: HappyChuseok/HappyChuseok.xcodeproj
-        scheme: HappyChuseok
-        destination: platform=iOS Simulator,name=iPhone 11 Pro Max,OS=latest
-        action: test
+    - name: Start xcode build
+      run: |
+        xcodebuild clean test -project "HappyChuseok/HappyChuseok.xcodeproj" -scheme "HappyChuseok" -destination "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=latest"
