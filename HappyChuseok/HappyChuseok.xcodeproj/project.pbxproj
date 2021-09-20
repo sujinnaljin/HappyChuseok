@@ -13,7 +13,18 @@
 		3BAC204826F87CEC00BCF210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAC204626F87CEC00BCF210 /* Main.storyboard */; };
 		3BAC204A26F87CEF00BCF210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAC204926F87CEF00BCF210 /* Assets.xcassets */; };
 		3BAC204D26F87CEF00BCF210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAC204B26F87CEF00BCF210 /* LaunchScreen.storyboard */; };
+		3BAC205B26F87DB300BCF210 /* HappyChuseokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC205A26F87DB300BCF210 /* HappyChuseokTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BAC205D26F87DB300BCF210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BAC203526F87CEC00BCF210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BAC203C26F87CEC00BCF210;
+			remoteInfo = HappyChuseok;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3BAC203D26F87CEC00BCF210 /* HappyChuseok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyChuseok.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +35,20 @@
 		3BAC204926F87CEF00BCF210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BAC204C26F87CEF00BCF210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BAC204E26F87CEF00BCF210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BAC205826F87DB300BCF210 /* HappyChuseokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyChuseokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAC205A26F87DB300BCF210 /* HappyChuseokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyChuseokTests.swift; sourceTree = "<group>"; };
+		3BAC205C26F87DB300BCF210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3BAC203A26F87CEC00BCF210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAC205526F87DB300BCF210 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				3BAC203F26F87CEC00BCF210 /* HappyChuseok */,
+				3BAC205926F87DB300BCF210 /* HappyChuseokTests */,
 				3BAC203E26F87CEC00BCF210 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				3BAC203D26F87CEC00BCF210 /* HappyChuseok.app */,
+				3BAC205826F87DB300BCF210 /* HappyChuseokTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +88,15 @@
 				3BAC204E26F87CEF00BCF210 /* Info.plist */,
 			);
 			path = HappyChuseok;
+			sourceTree = "<group>";
+		};
+		3BAC205926F87DB300BCF210 /* HappyChuseokTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BAC205A26F87DB300BCF210 /* HappyChuseokTests.swift */,
+				3BAC205C26F87DB300BCF210 /* Info.plist */,
+			);
+			path = HappyChuseokTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +119,24 @@
 			productReference = 3BAC203D26F87CEC00BCF210 /* HappyChuseok.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3BAC205726F87DB300BCF210 /* HappyChuseokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BAC205F26F87DB300BCF210 /* Build configuration list for PBXNativeTarget "HappyChuseokTests" */;
+			buildPhases = (
+				3BAC205426F87DB300BCF210 /* Sources */,
+				3BAC205526F87DB300BCF210 /* Frameworks */,
+				3BAC205626F87DB300BCF210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BAC205E26F87DB300BCF210 /* PBXTargetDependency */,
+			);
+			name = HappyChuseokTests;
+			productName = HappyChuseokTests;
+			productReference = 3BAC205826F87DB300BCF210 /* HappyChuseokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +148,10 @@
 				TargetAttributes = {
 					3BAC203C26F87CEC00BCF210 = {
 						CreatedOnToolsVersion = 12.5.1;
+					};
+					3BAC205726F87DB300BCF210 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 3BAC203C26F87CEC00BCF210;
 					};
 				};
 			};
@@ -115,6 +169,7 @@
 			projectRoot = "";
 			targets = (
 				3BAC203C26F87CEC00BCF210 /* HappyChuseok */,
+				3BAC205726F87DB300BCF210 /* HappyChuseokTests */,
 			);
 		};
 /* End PBXProject section */
@@ -127,6 +182,13 @@
 				3BAC204D26F87CEF00BCF210 /* LaunchScreen.storyboard in Resources */,
 				3BAC204A26F87CEF00BCF210 /* Assets.xcassets in Resources */,
 				3BAC204826F87CEC00BCF210 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BAC205626F87DB300BCF210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +205,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3BAC205426F87DB300BCF210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BAC205B26F87DB300BCF210 /* HappyChuseokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BAC205E26F87DB300BCF210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BAC203C26F87CEC00BCF210 /* HappyChuseok */;
+			targetProxy = 3BAC205D26F87DB300BCF210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3BAC204626F87CEC00BCF210 /* Main.storyboard */ = {
@@ -319,6 +397,46 @@
 			};
 			name = Release;
 		};
+		3BAC206026F87DB300BCF210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4XABUQ539;
+				INFOPLIST_FILE = HappyChuseokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sujinnaljin.HappyChuseokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyChuseok.app/HappyChuseok";
+			};
+			name = Debug;
+		};
+		3BAC206126F87DB300BCF210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y4XABUQ539;
+				INFOPLIST_FILE = HappyChuseokTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sujinnaljin.HappyChuseokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyChuseok.app/HappyChuseok";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +454,15 @@
 			buildConfigurations = (
 				3BAC205226F87CEF00BCF210 /* Debug */,
 				3BAC205326F87CEF00BCF210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BAC205F26F87DB300BCF210 /* Build configuration list for PBXNativeTarget "HappyChuseokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BAC206026F87DB300BCF210 /* Debug */,
+				3BAC206126F87DB300BCF210 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
