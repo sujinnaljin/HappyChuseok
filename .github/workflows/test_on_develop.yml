@@ -23,4 +23,4 @@ jobs:
     - name: Start xcode build 🛠
       run: |
         pod install --repo-update --clean-install --project-directory=HappyChuseok/
-        xcodebuild clean test -workspace HappyChuseok/HappyChuseok.xcworkspace -scheme HappyChuseok -destination 'platform=iOS Simulator,name=iPhone 11 Pro,OS=14.4'
+        xcodebuild clean test -workspace HappyChuseok/HappyChuseok.xcworkspace -scheme HappyChuseok -destination 'platform=iOS Simulator,name=iPhone 11 Pro,OS=latest'
