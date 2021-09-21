@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		3BAC204A26F87CEF00BCF210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BAC204926F87CEF00BCF210 /* Assets.xcassets */; };
 		3BAC204D26F87CEF00BCF210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BAC204B26F87CEF00BCF210 /* LaunchScreen.storyboard */; };
 		3BAC205B26F87DB300BCF210 /* HappyChuseokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAC205A26F87DB300BCF210 /* HappyChuseokTests.swift */; };
+		479E2A81B587587493C7066C /* Pods_HappyChuseok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0FA1704E49A528BF3BDA35 /* Pods_HappyChuseok.framework */; };
+		759D3276BCA5B38348DE35BB /* Pods_HappyChuseokTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBF4EB57BE655E052759D31 /* Pods_HappyChuseokTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1120498BB12B9BAB89E77161 /* Pods-HappyChuseok.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyChuseok.debug.xcconfig"; path = "Target Support Files/Pods-HappyChuseok/Pods-HappyChuseok.debug.xcconfig"; sourceTree = "<group>"; };
+		2FBF4EB57BE655E052759D31 /* Pods_HappyChuseokTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyChuseokTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAC203D26F87CEC00BCF210 /* HappyChuseok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyChuseok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAC204026F87CEC00BCF210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BAC204226F87CEC00BCF210 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +42,10 @@
 		3BAC205826F87DB300BCF210 /* HappyChuseokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyChuseokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BAC205A26F87DB300BCF210 /* HappyChuseokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyChuseokTests.swift; sourceTree = "<group>"; };
 		3BAC205C26F87DB300BCF210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C849432A9D93580D3E03B6B /* Pods-HappyChuseok.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyChuseok.release.xcconfig"; path = "Target Support Files/Pods-HappyChuseok/Pods-HappyChuseok.release.xcconfig"; sourceTree = "<group>"; };
+		AE0FA1704E49A528BF3BDA35 /* Pods_HappyChuseok.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyChuseok.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40049B9676145F8D665241E /* Pods-HappyChuseokTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyChuseokTests.debug.xcconfig"; path = "Target Support Files/Pods-HappyChuseokTests/Pods-HappyChuseokTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F552511FA6E63A372998337A /* Pods-HappyChuseokTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyChuseokTests.release.xcconfig"; path = "Target Support Files/Pods-HappyChuseokTests/Pods-HappyChuseokTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				479E2A81B587587493C7066C /* Pods_HappyChuseok.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				759D3276BCA5B38348DE35BB /* Pods_HappyChuseokTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				3BAC203F26F87CEC00BCF210 /* HappyChuseok */,
 				3BAC205926F87DB300BCF210 /* HappyChuseokTests */,
 				3BAC203E26F87CEC00BCF210 /* Products */,
+				787405CA4D47953215157C02 /* Pods */,
+				A110F98240418530E84338D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,26 @@
 			path = HappyChuseokTests;
 			sourceTree = "<group>";
 		};
+		787405CA4D47953215157C02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1120498BB12B9BAB89E77161 /* Pods-HappyChuseok.debug.xcconfig */,
+				4C849432A9D93580D3E03B6B /* Pods-HappyChuseok.release.xcconfig */,
+				E40049B9676145F8D665241E /* Pods-HappyChuseokTests.debug.xcconfig */,
+				F552511FA6E63A372998337A /* Pods-HappyChuseokTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A110F98240418530E84338D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE0FA1704E49A528BF3BDA35 /* Pods_HappyChuseok.framework */,
+				2FBF4EB57BE655E052759D31 /* Pods_HappyChuseokTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BAC205126F87CEF00BCF210 /* Build configuration list for PBXNativeTarget "HappyChuseok" */;
 			buildPhases = (
+				4E42589F37F562B9F4F8E6FC /* [CP] Check Pods Manifest.lock */,
 				3BAC203926F87CEC00BCF210 /* Sources */,
 				3BAC203A26F87CEC00BCF210 /* Frameworks */,
 				3BAC203B26F87CEC00BCF210 /* Resources */,
+				8FD1A54FBB0A5375578CC72A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +157,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3BAC205F26F87DB300BCF210 /* Build configuration list for PBXNativeTarget "HappyChuseokTests" */;
 			buildPhases = (
+				26365028423772637108D0B9 /* [CP] Check Pods Manifest.lock */,
 				3BAC205426F87DB300BCF210 /* Sources */,
 				3BAC205526F87DB300BCF210 /* Frameworks */,
 				3BAC205626F87DB300BCF210 /* Resources */,
@@ -193,6 +228,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26365028423772637108D0B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyChuseokTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E42589F37F562B9F4F8E6FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyChuseok-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD1A54FBB0A5375578CC72A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyChuseok/Pods-HappyChuseok-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyChuseok/Pods-HappyChuseok-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappyChuseok/Pods-HappyChuseok-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3BAC203926F87CEC00BCF210 /* Sources */ = {
@@ -294,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -349,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -361,6 +460,7 @@
 		};
 		3BAC205226F87CEF00BCF210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1120498BB12B9BAB89E77161 /* Pods-HappyChuseok.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -380,6 +480,7 @@
 		};
 		3BAC205326F87CEF00BCF210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C849432A9D93580D3E03B6B /* Pods-HappyChuseok.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -399,6 +500,7 @@
 		};
 		3BAC206026F87DB300BCF210 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E40049B9676145F8D665241E /* Pods-HappyChuseokTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -419,6 +521,7 @@
 		};
 		3BAC206126F87DB300BCF210 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F552511FA6E63A372998337A /* Pods-HappyChuseokTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
