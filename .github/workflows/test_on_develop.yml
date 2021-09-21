@@ -8,15 +8,9 @@ on:
 
 jobs:
   build:
-
     runs-on: macos-latest
-
     steps:
     - uses: actions/checkout@v2
-    - name: Force Xcode 12.4
-      run: sudo xcode-select -switch /Applications/Xcode_12.4.app
-    - name: List Simulators
-      run: xcrun simctl list
-    - name: Start xcode build
+    - name: Run tests
       run: |
-        xcodebuild test -project HappyChuseok/HappyChuseok.xcodeproj -scheme HappyChuseok -destination 'platform=iOS Simulator,name=iPhone 8,OS=14.4'
+        xcodebuild test -project HappyChuseok.xcodeproj -scheme HappyChuseok -destination 'platform=iOS Simulator,name=iPhone 11 Pro,OS=14.4'
