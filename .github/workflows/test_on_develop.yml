@@ -19,4 +19,4 @@ jobs:
       run: xcrun simctl list
     - name: Start xcode build
       run: |
-        xcodebuild test -project HappyChuseok/HappyChuseok.xcodeproj -scheme HappyChuseok -destination 'platform=iOS Simulator,name=iPhone 8,OS=latest'
+        xcodebuild test -project HappyChuseok/HappyChuseok.xcodeproj -scheme HappyChuseok -destination 'platform=iOS Simulator,name=iPhone 8,OS=14.4'
