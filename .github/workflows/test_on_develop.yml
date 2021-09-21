@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Start xcode build
       run: |
-        xcodebuild clean test -project "HappyChuseok/HappyChuseok.xcodeproj" -scheme "HappyChuseok" -destination "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=latest"
+        xcodebuild clean test -project "HappyChuseok/HappyChuseok.xcodeproj" -scheme "HappyChuseok" -destination "platform=iOS Simulator,name=iPhone 11 8,OS=latest"
